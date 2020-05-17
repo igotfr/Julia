@@ -56,7 +56,7 @@ ____________________________
 
 ## Dict() vs {}
 
-## {} vs <>
+## {} vs <> vs ()
 
 Julia usa {} para definir o tipo de uma estrutura de dados, se houver conflito usando {} para tipos de dados e para envolver uma Dict simultaneamente, faria sentido usar <> ao invés de {} para tipos de dados
 
@@ -71,5 +71,7 @@ meu ideal:
 
 ```julia
 println([[4, 5, 6, 4]])
+# Array<Int64,1>[[4, 5, 6, 4]]
+ou
 # Array<Int64,1>[[4, 5, 6, 4]]
 ```
