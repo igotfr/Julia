@@ -73,5 +73,7 @@ meu ideal:
 println([[4, 5, 6, 4]])
 # Array<Int64,1>[[4, 5, 6, 4]]
 ou
-# Array<Int64,1>[[4, 5, 6, 4]]
+# Array(Int64,1)[[4, 5, 6, 4]]
+ou manter caso não haja conflito ou ambiguidade
+# Array{Int64,1}[[4, 5, 6, 4]]
 ```
