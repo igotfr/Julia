@@ -58,7 +58,7 @@ julia> [unpack([[1 2]])] # não sei se esse faria muito sentido
 julia> [unpack([[[1 2]]], 2)]
  1
  2
-
+```
 ___
 
 # Comportamento em Julia
