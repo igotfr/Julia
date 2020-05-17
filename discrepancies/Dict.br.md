@@ -20,7 +20,7 @@ pessoa= {
 
 ____________________________________
 
-:key vs §key
+## :key vs §key
 
 foi optado o símbolo : para keys, muito provavelmente inspirado em Ruby.
 os símbolos @ # $ & % ~ ^ já possuem significado na linguagem e portanto não podem ser usados.
