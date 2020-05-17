@@ -1,4 +1,4 @@
-não vejo como boa coisa fugir de padrões enraízados, a menos qe se crie novos padrões com funcionalidades melhores
+## não vejo como boa coisa fugir de padrões enraízados, a menos qe se crie novos padrões com funcionalidades melhores
 
 como Julia é:
 
