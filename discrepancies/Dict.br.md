@@ -23,6 +23,7 @@ ____________________________________
 ## :key vs §key
 
 foi optado o símbolo : para keys, muito provavelmente inspirado em Ruby.
+
 Os símbolos @ # $ & % ~ ^ já possuem significado na linguagem e portanto não podem ser usados.
 
 Somente na tabela extendida de ASCII temos os segintes símbolos qe poderiam ser usados como token de uma key:
