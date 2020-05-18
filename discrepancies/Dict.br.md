@@ -1,5 +1,7 @@
 ## não vejo como algo bom fugir de padrões enraizados, a menos qe se crie novos padrões com funcionalidades melhores
 
+#### eu poderia usar Named Tuples? sim, mas Named Tuples são ordenadas, Dict's não são ordenadas
+
 como Julia é:
 
 ```julia
