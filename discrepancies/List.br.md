@@ -114,7 +114,9 @@ ___
 ## ; ou Enter vcat
 
 em arrays este tem 2 comportamentos (começa errado por aí),
+
 funciona da mesma forma como uma qebra de linha ou
+
 faz um unpack do valor à sua esqerda.
 
 
