@@ -70,6 +70,7 @@ ___
 ## ,
 
 encadea verticalmente.
+
 Não pode ser usado em conjunto com ; ou Space, somente com outros ,
 
 ```julia
@@ -112,7 +113,9 @@ ___
 
 ## ; ou Enter vcat
 
-em arrays este tem 2 comportamentos (começa errado por aí), funciona da mesma forma como uma qebra de linha ou faz um unpack do valor à sua esqerda.
+em arrays este tem 2 comportamentos (começa errado por aí),
+funciona da mesma forma como uma qebra de linha ou
+faz um unpack do valor à sua esqerda.
 
 
 ```julia
