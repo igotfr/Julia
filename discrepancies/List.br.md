@@ -1,4 +1,4 @@
-o calcanhar da Julia seria comportado por um belo salto-alto? parece qe ele vem mesmo em forma de simples separações de uma lista de dados
+o calcanhar da Julia seria comportado por um belo salto-alto? parece qe ele é mesmo atingido por separações de uma lista de dados
 
 # Meu ideal
 
