@@ -22,3 +22,30 @@ Stacktrace:
  [3] setindex!(::Array{Int64,1}, ::Array{Int64,1}, ::UnitRange{Int64}) at ./array.jl:851
  [4] top-level scope at REPL[3]:1
 ```
+
+___
+
+meu ideal:
+
+```julia
+a = [1, 2, 3, 4]
+
+a[2:4] = [5, 6]
+
+# a = [1, 5, 6]
+```
+
+como Julia é:
+
+```julia
+a = [1, 2, 3, 4]
+
+a[2:4] = [5, 6]
+
+ERROR: DimensionMismatch("tried to assign 2 elements to 3 destinations")
+Stacktrace:
+ [1] throw_setindex_mismatch(::Array{Int64,1}, ::Tuple{Int64}) at ./indices.jl:191
+ [2] setindex_shape_check at ./indices.jl:242 [inlined]
+ [3] setindex!(::Array{Int64,1}, ::Array{Int64,1}, ::UnitRange{Int64}) at ./array.jl:851
+ [4] top-level scope at REPL[10]:1
+```
