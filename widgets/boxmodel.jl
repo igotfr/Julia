@@ -1,5 +1,6 @@
-```julia
-rectangle
+# using tuple or Dict? I haven't decided yet
+
+rectangle # or rect
 (
   # use this, but not 2 or 3 simultaneously, only 1
   box_sizing = "content_box",
@@ -31,6 +32,10 @@ rectangle
 
   ########################################################################
 
+  padding = "inherit",
+  padding = "initial",
+  padding = "unset",
+
   padding = (top = 10 "px", right = 50 "px", bottom = 30 "px", left = 15 "px"),
   padding = (10 "px", 50 "px", 30 "px", 15 "px"),
   padding = (top = 10 "px", horizontal = 50 "px", bottom = 30 "px"),
@@ -45,8 +50,17 @@ rectangle
 
   # vertical should not be used with top or bottom
   # horizontal should not be used with right or left
+
+  padding_top = 10 "px"
+  padding_right = 10 "px",
+  padding_bottom = 10 "px",
+  padding_left = 10 "px",
+
+  ########################################################################
+  
+  
 )
 do
   # content
+  text("will it ever be real?")
 end
-```
