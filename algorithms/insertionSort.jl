@@ -1,3 +1,5 @@
+# https://github.com/JuliaLang/julia/blob/master/base/sort.jl lines 1052 and 527
+
 function insertionSort!(Aexterno::Array{T})::Array{T} where T <: Number
   if Aexterno |> isempty || Aexterno |> length < 2
     return Aexterno;
