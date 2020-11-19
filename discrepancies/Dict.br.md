@@ -56,29 +56,3 @@ os Unicodes se extendem ainda mais, talvez eu continue algum dia, ou os coloqe e
 Julia usa a tabela extendida de ASCII para diversos outros tokens, esta não seria uma justificativa válida
 
 vou usar o símbolo § para keys, mas apenas estabelecido provisoriamente
-
-____________________________
-
-## Dict() vs {}
-
-## {} vs <> vs ()
-
-Julia usa {} para definir o tipo de uma estrutura de dados, se houver conflito usando {} para tipos de dados e para envolver uma Dict simultaneamente, faria sentido usar <> ao invés de {} para tipos de dados
-
-como Julia é:
-
-```julia
-println([[4, 5, 6, 4]])
-# Array{Int64,1}[[4, 5, 6, 4]]
-```
-
-meu ideal:
-
-```julia
-println([[4, 5, 6, 4]])
-# Array<Int64,1>[[4, 5, 6, 4]]
-ou
-# Array(Int64,1)[[4, 5, 6, 4]]
-ou manter caso não haja conflito ou ambiguidade
-# Array{Int64,1}[[4, 5, 6, 4]]
-```
