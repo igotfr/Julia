@@ -5,19 +5,21 @@
 como Julia é:
 
 ```julia
-pessoa= Dict(
-  :nome=> "Rodrigo",
-  :idade=> 87,
-  :casado=> true)
+pessoa = Dict(
+  :nome => "Rodrigo",
+  :idade => 87,
+  :casado => true
+)
 ```
 
 meu ideal:
 
 ```julia
-pessoa= {
+pessoa = {
   §nome: "Rodrigo",
   §idade: 87,
-  §casado: true}
+  §casado: true
+}
 ```
 
 ____________________________________
